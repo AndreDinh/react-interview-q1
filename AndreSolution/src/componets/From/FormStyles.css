@@ -1,0 +1,98 @@
+/* FormStyles.css */
+
+.error {
+    color: red;
+    font-size: 1.85vh;
+}
+
+.form-container {
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 2.63vh;
+    font-family: Arial, sans-serif;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 2.63vh;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 100%;
+    padding: 1.05vh;
+    margin-top: 0.66vh;
+    border: 0.13vh solid #ccc;
+    border-radius: 0.53vh;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.97vh;
+}
+
+.form-group label {
+    flex-basis: 20%;
+    margin-right: 1.32vh;
+    text-align: left;
+}
+
+.form-container .error {
+    color: red;
+    margin-top: 0.66vh;
+    margin-bottom: 1.32vh;
+}
+
+.form-container .button-container {
+    text-align: right;
+    padding-top: 1.97vh;
+}
+
+.form-container button {
+    color: #040404;
+    border: 0.13vh solid #040404;
+    background-color: #fff;
+    padding: 1.32vh 2.63vh;
+    border-radius: 0.53vh;
+    cursor: pointer;
+    margin-left: 1.32vh;
+}
+
+/* TableStyles.css */
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 2.63vh;
+    padding: 0 2.63vh;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table th,
+.table td {
+    border: 0.13vh solid #ddd;
+    text-align: left;
+    padding: 1.05vh;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.table th.name-header {
+    width: 50%;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
